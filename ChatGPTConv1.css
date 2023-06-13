@@ -43,7 +43,7 @@ h1 {
   background: #f4f4f4;
   /*border: #ccc solid 2px;*/
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
   text-align: left;
   border-radius: 6px;
   flex: 1;
@@ -56,8 +56,13 @@ h1 {
   flex-wrap: wrap;
   }
 
+.intro {
+    flex-shrink: 0;
+    margin-left: 10%;
+}
 .item-me {
     flex-shrink: 0;
+    margin-left: 5%;
 }
 .item-chat-gpt {
     flex-grow: 1;
